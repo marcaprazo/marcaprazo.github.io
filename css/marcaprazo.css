@@ -1,0 +1,60 @@
+body {
+  background-color: #16b0a8;
+  color: white;
+  padding: 5%;
+  font-family: 'Oxygen', sans-serif; 
+  font-size: 16px;
+}
+
+img.logo  {
+  max-width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+h1.hire, h1.hey  {
+  font-weight: bold;
+  line-height: .9em;
+  text-align: center;
+  margin: 55px 0 0 0;
+}
+
+h1.hire {
+  font-size: 7em;
+}
+
+h1.hey {
+  font-size: 5em;
+  display: none;
+}
+
+h2.subtitle {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+a.github {
+  display: block;
+  margin: 75px auto;
+  width: 64px;
+}
+
+img.github {
+  display: inline;
+}
+
+
+@media (max-width: 750px) {
+  img.logo {
+    max-width: 55%;
+  }
+
+  h1.hire {
+    display: none;
+  }
+
+  h1.hey {
+    display: block;
+  }
+}
