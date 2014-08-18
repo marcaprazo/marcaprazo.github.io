@@ -58,3 +58,13 @@ img.github {
     display: block;
   }
 }
+
+@media (max-height: 1200px) {
+  a.github {
+    margin: 25px auto;
+  }
+
+  h1.hire, h1.hey {
+    margin-top: 25px;
+  }
+}
